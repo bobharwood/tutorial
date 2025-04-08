@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tutorial
+  description: Tutorial repository
+  annotations:
+    github.com/project-slug: bobharwood/tutorial
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - tutorial
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: user:guest
